@@ -6,16 +6,20 @@
 [![Total Downloads](https://poser.pugx.org/proget-hq/phpstan-yii2/downloads.svg)](https://packagist.org/packages/proget-hq/phpstan-yii2)
 [![License](https://poser.pugx.org/proget-hq/phpstan-yii2/license.svg)](https://packagist.org/packages/proget-hq/phpstan-yii2)
 
+## Why this fork?
+
+Cause I'm waiting on [this PR](https://github.com/proget-hq/phpstan-yii2/pull/48) to be merged.
+
 ## What does it do?
 
-* Provides correct return type for `Yii::$container->get('service_id')` method,
-* Provides correct methods and properties for `Yii::$app->request`
-* Ignore common problems with response objects (to be removed).
+- Provides correct return type for `Yii::$container->get('service_id')` method,
+- Provides correct methods and properties for `Yii::$app->request`
+- Ignore common problems with response objects (to be removed).
 
 ## Compatibility
 
 | PHPStan version | Yii2 extension version |
-|-----------------|------------------------|
+| --------------- | ---------------------- |
 | 1.x             | 0.8.x                  |
 | 0.12            | 0.7.x                  |
 | 0.11            | 0.5.x - 0.6.x          |
